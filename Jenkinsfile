@@ -17,5 +17,10 @@ pipeline {
                 echo "Testing my code"
             }
         }
+        stage('Final Checking'){
+            steps {
+                echo "working fine"
+            }
+        }
     }
 }
